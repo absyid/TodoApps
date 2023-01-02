@@ -87,7 +87,7 @@ const DeleteActivity = ({
                     alt="modal delete"
                   />
                   <p
-                    data-cy="modal-delete-title"
+                    data-cy="modal-delete-confirm-button"
                     className="text-center text-lg font-medium text-txtBlack "
                   >
                     Apakah anda yakin ingin menghapus
@@ -114,7 +114,7 @@ const DeleteActivity = ({
                   />
                   {page === "dashboard" ? (
                     <ButtonDelete
-                      dataCy="modal-delete-confirm-button"
+                      data-cy="modal-delete"
                       loadingComponent={loading}
                       onClick={() => onDeleteActivity(selectedActivity[0])}
                     />
