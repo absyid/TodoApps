@@ -50,10 +50,7 @@ const AlertActivity = ({ alertComponent, setAlertComponent }) => {
                     src={modalInfo}
                     alt="information icon"
                   />
-                  <p
-                    data-cy="modal-information"
-                    className="pl-[10px] text-center text-lg font-medium text-txtBlack "
-                  >
+                  <p className="pl-[10px] text-center text-lg font-medium text-txtBlack ">
                     Activity berhasil dihapus
                   </p>
                 </div>
